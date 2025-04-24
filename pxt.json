@@ -1,0 +1,45 @@
+{
+    "name": "simple-game",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "classes.ts",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "main.py",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.53",
+        "tag": "v2.0.53",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e974a17f3315341e144667047139204333247d68",
+        "target": "2.0.53",
+        "pxt": "11.3.51"
+    },
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#022835",
+        "#104050",
+        "#26596A",
+        "#457585",
+        "#6C939F",
+        "#50000E",
+        "#781426",
+        "#9F3548",
+        "#C76475",
+        "#EF9FAE",
+        "#554300",
+        "#806915",
+        "#AA9239",
+        "#D4BE6A",
+        "#FFEDAA"
+    ]
+}
