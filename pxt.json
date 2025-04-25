@@ -6,7 +6,6 @@
     },
     "files": [
         "main.blocks",
-        "classes.ts",
         "main.ts",
         "README.md",
         "assets.json",

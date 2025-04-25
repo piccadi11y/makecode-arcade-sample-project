@@ -165,8 +165,6 @@ let active_timeouts: iActive_timeouts = {};
 
 
 function handle_movement_input (pressure: Vector2 = new Vector2(512, 512)): void {
-
-
     let pressure_scale: Vector2 = new Vector2(pressure.x / 512, pressure.y / 512);
 
     input_direction.x = controller.dx();
@@ -211,6 +209,9 @@ function init_scene (): void {
 
     info.setLife(3);
     game.stats = true;
+
+    game.splash("press 'A' to ping");
+    game.splash("get out");
     
 }
 
@@ -233,7 +234,8 @@ function init_player (): void {
         let projectiles: Sprite[] = sprites.allOfKind(SpriteKind.Projectile);
         if (projectiles.length > 0) for (let i = 0; i < projectiles.length; i++) projectiles[i].destroy();
         
-        if (game_manager.hasWon()) game.gameOverPlayerWin(1);
+        // if (game_manager.hasWon()) game.gameOverPlayerWin(1);
+        if (game_manager.hasWon()) game.gameOver(true);
         else tilemap_flip = game_manager.loadLevel(game_manager.getLevel() + 1);
     });
 
