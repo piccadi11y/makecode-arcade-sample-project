@@ -291,10 +291,14 @@ namespace myImages {
 6 7 8 7 6 
 . 6 7 6 . 
 `;
+            case "image11":
+            case "particle1":return img`
+. . 
+. . 
+`;
             case "image10":
             case "particle0":return img`
-7 7 
-7 7 
+7 
 `;
         }
         return null;

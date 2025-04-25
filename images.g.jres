@@ -71,9 +71,17 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "particle"
     },
+    "myImages.image11": {
+        "id": "myImages.image11",
+        "data": "hwQCAAIAAAAAAAAAAAAAAA==",
+        "dataEncoding": "base64",
+        "namespace": "myImages.",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "particle1"
+    },
     "myImages.image10": {
         "id": "myImages.image10",
-        "data": "hwQCAAIAAAB3AAAAdwAAAA==",
+        "data": "hwQBAAEAAAAHAAAA",
         "dataEncoding": "base64",
         "namespace": "myImages.",
         "mimeType": "image/x-mkcd-f4",
